@@ -31,7 +31,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reactjs and Native
+          Learn Reactjs and Native and dom
         </a>
       </header>
 
