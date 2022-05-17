@@ -1,0 +1,40 @@
+.Navbar {
+   
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: rgb(100, 78, 223);
+    /* justify-content: space-between; */
+    
+  }
+  
+  .Navbar a {
+    
+    color: #f2f2f2;
+    padding: 100% 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+    
+   
+    
+  }
+  
+  .Navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .Navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+    
+    
+  }
+
+  .Navlogo {
+      height: 5vmin;
+      align-self: center;     
+      
+      
+  }
