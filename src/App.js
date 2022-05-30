@@ -3,20 +3,20 @@ import './App.css';
 import Navbar from './navbar';
 import Clock from './Clock';
 import ClockWithHooks from './ClockWithHooks.js';
-import ClockWithHooks1 from './ClockWithHooks1.js';
+
 import Weather,{TemperatureInCelcius} from './Weather.js';
+import WeatherList from './testCard';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <TemperatureInCelcius/>
+      <WeatherList/>
+      <Clock/>
       
       <header className="App-header">
-      
-      <Clock/>
-      <ClockWithHooks/>
-      <ClockWithHooks1/>
+             <ClockWithHooks/>
       <Weather/>
       
       
